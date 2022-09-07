@@ -1,3 +1,12 @@
+## 1.56.0
+
+### Dart API
+
+* TODO: document color stuff
+
+* Added `SassNumber.convertValueToUnit()` as a shorthand for
+  `SassNumber.convertValue()` with a single numerator.
+
 ## 1.55.0
 
 * **Potentially breaking bug fix:** Sass numbers are now universally stored as

@@ -1,3 +1,15 @@
+## 5.0.0
+
+### Dart API
+
+* **Breaking change:** Remove the `SassApiColor.hasCalculatedRgb` and
+  `.hasCalculatedHsl` extension methods. These can now be determined by checking
+  if `SassColor.knownSpaceOrNull` is `KnownColorSpace.rgb` or
+  `KnownColorSpace.hsl`, respectively.
+
+* Added `SassNumber.convertValueToUnit()` as a shorthand for
+  `SassNumber.convertValue()` with a single numerator.
+
 ## 4.0.0
 
 ### Dart API
